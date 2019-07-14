@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_btw_line"
+        android:layout_marginBottom="@dimen/button_buttom_margin"
+        android:contentDescription="TODO" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="@dimen/text_size"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="@dimen/margin_text_area">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btw_line"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_gap"
+                android:textSize="@dimen/text_size"
+                android:text="@string/track"
+                />
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:layout_height="wrap_content"
+                android:text="@string/android"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btw_line"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_gap"
+                android:textSize="@dimen/text_size"
+                android:text="@string/country"
+                />
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:layout_height="wrap_content"
+                android:text="@string/nigeria"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btw_line"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_gap"
+                android:textSize="@dimen/text_size"
+                android:text="@string/email"
+                />
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:layout_height="wrap_content"
+                android:text="@string/email_text"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btw_line"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_gap"
+                android:textSize="@dimen/text_size"
+                android:text="@string/phone"
+                />
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btw_line"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_gap"
+                android:textSize="@dimen/text_size"
+                android:text="@string/slack"
+                />
+            <TextView
+                android:fontFamily="cursive"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size"
+                android:layout_height="wrap_content"
+                android:text="@string/slack_id"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

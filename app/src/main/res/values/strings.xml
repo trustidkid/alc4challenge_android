@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="welcome_alc">Welcome to ALC 4.0</string>
+    <string name="track">Track:</string>
+    <string name="android">Android</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="country">Country:</string>
+    <string name="email">Email:</string>
+    <string name="name">Semiu Biliaminu</string>
+    <string name="email_text">yemi.bili07@gmail.com</string>
+    <string name="phone">Phone:</string>
+    <string name="phone_number">08038171939</string>
+    <string name="slack">Slack ID:</string>
+    <string name="slack_id">trustidkid</string>
+    <string name="title_activity_about_alc">AboutALC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="myprofile">My Profile</string>
+    <string name="aboutalc">About ALC</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>
