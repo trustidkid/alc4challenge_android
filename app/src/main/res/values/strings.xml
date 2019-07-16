@@ -6,7 +6,6 @@
     <string name="track">Track:</string>
     <string name="android">Android</string>
     <string name="nigeria">Nigeria</string>
-    <string name="country">Country:</string>
     <string name="email">Email:</string>
     <string name="name">Semiu Biliaminu</string>
     <string name="email_text">yemi.bili07@gmail.com</string>
@@ -30,4 +29,5 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="country">country</string>
 </resources>

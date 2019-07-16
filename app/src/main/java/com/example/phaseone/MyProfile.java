@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
@@ -29,6 +30,22 @@ public class MyProfile extends AppCompatActivity {
                 finish();
             }
         });
+
+        TextView name = findViewById(R.id.name);
+        TextView track = findViewById(R.id.track);
+        TextView phone = findViewById(R.id.phone);
+        TextView email = findViewById(R.id.email);
+        TextView country = findViewById(R.id.country);
+        TextView slackid = findViewById(R.id.slack_id);
+
+        name.setText(getString(R.string.name));
+        track.setText(getString(R.string.android));
+        phone.setText(getString(R.string.phone_number));
+        email.setText(getString(R.string.email_text));
+        country.setText(getString(R.string.nigeria));
+        slackid.setText(getString(R.string.slack_id));
+
+
 
         String imageUri = "https://res.cloudinary.com/semiu/image/upload/v1554309699/mypix.png";
 

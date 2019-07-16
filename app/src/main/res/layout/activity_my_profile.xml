@@ -33,6 +33,7 @@
         android:layout_marginBottom="@dimen/button_buttom_margin"
         android:contentDescription="TODO" />
         <TextView
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/name"
@@ -47,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -59,6 +61,7 @@
             android:orientation="horizontal">
 
             <TextView
+
                 android:fontFamily="cursive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,12 +70,13 @@
                 android:text="@string/track"
                 />
             <TextView
+                android:id="@+id/track"
                 android:fontFamily="cursive"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/text_size"
                 android:layout_height="wrap_content"
-                android:text="@string/android"
+
                 />
         </LinearLayout>
 
@@ -83,6 +87,7 @@
             android:orientation="horizontal">
 
             <TextView
+
                 android:fontFamily="cursive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -91,12 +96,13 @@
                 android:text="@string/country"
                 />
             <TextView
+                android:id="@+id/country"
                 android:fontFamily="cursive"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/text_size"
                 android:layout_height="wrap_content"
-                android:text="@string/nigeria"
+
                 />
         </LinearLayout>
 
@@ -115,12 +121,13 @@
                 android:text="@string/email"
                 />
             <TextView
+                android:id="@+id/email"
                 android:fontFamily="cursive"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/text_size"
                 android:layout_height="wrap_content"
-                android:text="@string/email_text"
+
                 />
         </LinearLayout>
 
@@ -139,12 +146,13 @@
                 android:text="@string/phone"
                 />
             <TextView
+                android:id="@+id/phone"
                 android:fontFamily="cursive"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/text_size"
                 android:layout_height="wrap_content"
-                android:text="@string/phone_number"
+
                 />
 
         </LinearLayout>
@@ -164,12 +172,13 @@
                 android:text="@string/slack"
                 />
             <TextView
+                android:id="@+id/slack_id"
                 android:fontFamily="cursive"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textSize="@dimen/text_size"
                 android:layout_height="wrap_content"
-                android:text="@string/slack_id"
+
                 />
         </LinearLayout>
 
